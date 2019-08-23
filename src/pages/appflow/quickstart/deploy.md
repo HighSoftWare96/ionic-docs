@@ -37,6 +37,12 @@ progress and look at the logs if you encounter errors.
 
 ![Running Web Build](/docs/assets/img/appflow/gif-start-web-build.gif)
 
+## Web Build Versioning
+
+Once the Web Build has been completed it can be assigned to a specific native build number. To do that you can assign in the Web Build details a minimum, a maximum an equivalent version compatible or not with the update. For more details and a simple use case see this article: https://ionic.zendesk.com/hc/en-us/articles/360003567694-How-to-restrict-Deploy-updates-by-native-version.
+
+![Web build versioning](/docs/assets/img/appflow/web-build-versioning.png)
+
 ## Assign the Build to a Channel
 
 <blockquote>
@@ -50,6 +56,7 @@ page. You can also click the `Assign to channel` icon on the build in the `Deplo
 from the dropdown.
 
 ![Assign to Channel](/docs/assets/img/appflow/gif-assign-to-channel.gif)
+
 
 ## Receiving a Live Update on a Device
 
